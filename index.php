@@ -59,19 +59,19 @@ $data = [
             // ['name' => 'Python', 'level' => 75],
             ['name' => 'C', 'level' => 70]
         ],
-        'tools' => [
-            ['name' => 'Git & GitHub', 'level' => 85],
-            ['name' => 'VS Code', 'level' => 90],
-            ['name' => 'IntelliJ IDEA', 'level' => 85],
-            ['name' => 'Eclipse', 'level' => 80],
-            ['name' => 'MySQL Workbench', 'level' => 85]
-        ],
         'coreCS' => [
             'Object Oriented Programming (OOPS)',
             'Data Structures and Algorithms (DSA)',
             'Database Management Systems (DBMS)',
             'Operating Systems',
             'Computer Networking'
+        ],
+        'tools' => [
+            ['name' => 'Git & GitHub', 'level' => 85],
+            ['name' => 'VS Code', 'level' => 90],
+            ['name' => 'IntelliJ IDEA', 'level' => 85],
+            ['name' => 'Eclipse', 'level' => 80],
+            ['name' => 'MySQL Workbench', 'level' => 85]
         ]
     ],
     'projects' => [
@@ -132,7 +132,7 @@ $data = [
     ],
     'achievements' => [
         [
-            'title' => '290+ Coding Problems Solved',
+            'title' => '300+ Coding Problems Solved',
             'platform' => 'LeetCode',
             'description' => 'Strengthened problem-solving skills and Data Structures & Algorithms expertise.'
         ],
