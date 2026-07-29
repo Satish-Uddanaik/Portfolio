@@ -100,14 +100,27 @@ $data = [
             'github' => 'https://github.com/Satish-Uddanaik',
             'demo' => null
         ],
-        [
-            'title' => 'BloodLink – Blood Donation Management System',
-            'description' => 'Full-stack blood donation management platform connecting donors and hospitals, enabling donation booking, request tracking, and hospital-specific blood stock management.',
-            'techStack' => ['Spring Boot', 'React.js', 'MySQL', 'Recharts'],
+        // [
+        //     'title' => 'BloodLink – Blood Donation Management System',
+        //     'description' => 'Full-stack blood donation management platform connecting donors and hospitals, enabling donation booking, request tracking, and hospital-specific blood stock management.',
+        //     'techStack' => ['Spring Boot', 'React.js', 'MySQL', 'Recharts'],
+        //     'features' => [
+        //         'End-to-end donation workflow for hospitals to approve, reject, or complete donation requests',
+        //         'Automatic blood stock updates and real-time status tracking',
+        //         'Interactive analytics dashboards using Recharts to visualize monthly donation trends and blood group distribution'
+        //     ],
+        //     'github' => 'https://github.com/Satish-Uddanaik',
+        //     'demo' => null
+        // ],
+          [
+            'title' => 'StaySync – Hotel Management System',
+            'description' => 'Full-stack hotel management system with features for room booking, guest management, and administrative controls.',
+            'techStack' => ['Spring Boot', 'React.js', 'MySQL', 'Spring Security', 'JWT','Spring Data JPA'],
             'features' => [
-                'End-to-end donation workflow for hospitals to approve, reject, or complete donation requests',
-                'Automatic blood stock updates and real-time status tracking',
-                'Interactive analytics dashboards using Recharts to visualize monthly donation trends and blood group distribution'
+                'Developed a full-stack Hotel Management System using React, Spring Boot, Spring Security, JWT, Spring Data JPA, and MySQL, implementing secure role-based authentication and RESTful APIs.',
+                'Designed and implemented scalable backend architecture with layered design (Controller, Service, Repository, DTO), Hibernate ORM, centralized exception handling, and input validation for maintainable enterprise-level development.',
+                'Built end-to-end hotel booking, room management, and user management modules with secure JWT-based authentication, BCrypt password encryption, and optimized MySQL database relationships.',
+                // 'Implemented local file storage for room image upload and retrieval using Spring Boot MultipartFile, ensuring seamless integration with React and efficient media management.'
             ],
             'github' => 'https://github.com/Satish-Uddanaik',
             'demo' => null
